@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_gravity="top|center">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <TableRow
+            android:layout_marginBottom="5dp">
+        <Button
+            android:backgroundTint="@color/grey"
+            android:id="@+id/buttonFavoriteAlbums"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favorite Albums"
+            android:textColor="@color/black"
+            android:layout_marginEnd="5dp"/> <!-- Add margin to the right -->
+
+        <Button
+            android:backgroundTint="@color/grey"
+            android:id="@+id/buttonFavoriteImages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favortie Images"
+            android:textColor="@color/black"
+            android:layout_marginStart="5dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <Button
+            android:backgroundTint="@color/grey"
+            android:id="@+id/buttonLoginFB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Facebook"
+            android:textColor="@color/black"
+                android:layout_marginEnd="5dp"/>
+
+            <Button
+                android:id="@+id/buttonDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="@color/grey"
+                android:text="Download image"
+                android:textColor="@color/black" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:backgroundTint="@color/grey"
+                android:id="@+id/buttonSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/black"/>
+            <Button
+                android:backgroundTint="@color/grey"
+                android:id="@+id/buttonTrash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trash"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+            <Button
+                android:backgroundTint="@color/grey"
+                android:id="@+id/buttonHidden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hidden"
+                android:layout_marginEnd="5dp"
+                android:textColor="@color/black"/>
+            <Button
+                android:backgroundTint="@color/grey"
+                android:id="@+id/buttonDeleteDuplicateImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duplicate"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/black"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

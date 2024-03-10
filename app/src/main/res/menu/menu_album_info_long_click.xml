@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/removeFromAlbum"
+        android:title="Remove from album"
+        android:icon="@android:drawable/bottom_bar" />
+    <item android:id="@+id/deleteImages"
+        android:title="Delete images"
+        android:icon="@android:drawable/bottom_bar" />
+    <item android:id="@+id/slideshow"
+        android:title="Slideshow"
+        android:icon="@android:drawable/bottom_bar" />
+</menu>

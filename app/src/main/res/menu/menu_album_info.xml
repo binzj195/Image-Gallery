@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/changeNameAlbum"
+        android:title="Change name"
+        android:icon="@android:drawable/bottom_bar" />
+    <item android:id="@+id/deleteAlbum"
+        android:title="Delete album"
+        android:icon="@android:drawable/bottom_bar" />
+    <item android:id="@+id/changeCover"
+        android:title="Change cover"
+        android:icon="@android:drawable/bottom_bar" />
+    <item android:id="@+id/addImage"
+        android:title="Add images"
+        android:icon="@android:drawable/bottom_bar" />
+    <item android:id="@+id/changeDescription"
+        android:title="Change description"
+        android:icon="@android:drawable/bottom_bar" />
+    <item android:id="@+id/addAnAlbumToFavorites"
+        android:title="Add to favorites"
+        android:icon="@android:drawable/bottom_bar" />
+    <item android:id="@+id/removeAnAlbumFromFavorites"
+        android:title="Remove from favorites"
+        android:icon="@android:drawable/bottom_bar" />
+
+</menu>
